@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358539886686",
+    "firebase_url": "https://motoapp-6e968.firebaseio.com",
+    "project_id": "motoapp-6e968",
+    "storage_bucket": "motoapp-6e968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358539886686:android:d6e0e308caf204be",
+        "android_client_info": {
+          "package_name": "com.book.mototaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358539886686-bdmlpr28b93fqaj2ffif8akq321ifn4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.book.mototaxi",
+            "certificate_hash": "a4465ffe3d271cd6559153ca2993f18d269e2b4c"
+          }
+        },
+        {
+          "client_id": "358539886686-028n4c7772ifnlv6qop9e1uirshqtqgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCznpnLHAeVqPR6gyIfsJz5WHSvCRvexKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358539886686-028n4c7772ifnlv6qop9e1uirshqtqgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
