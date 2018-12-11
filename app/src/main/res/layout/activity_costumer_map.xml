@@ -29,14 +29,15 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/history"
-                android:text="history"/>
+                android:id="@+id/settings"
+                android:text="Settings"/>
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/settings"
-                android:text="Settings"/>
+                android:id="@+id/btchat"
+                android:text="chat"/>
+
         </LinearLayout>
 
         <android.support.v7.widget.CardView
@@ -112,6 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <RadioGroup
+                android:textAlignment="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/radioGroup"
@@ -119,18 +121,13 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberX"
+                    android:text="Carro"
                     android:id="@+id/UberX"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberBlack"
+                    android:text="Moto"
                     android:id="@+id/UberBlack"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="UberXl"
-                    android:id="@+id/UberXl"/>
             </RadioGroup>
 
             <Button

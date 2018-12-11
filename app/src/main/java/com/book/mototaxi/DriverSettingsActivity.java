@@ -129,14 +129,11 @@ public class DriverSettingsActivity extends AppCompatActivity {
                     if(map.get("service")!=null){
                         mService = map.get("service").toString();
                         switch (mService){
-                            case"UberX":
+                            case"Carro":
                                 mRadioGroup.check(R.id.UberX);
                                 break;
-                            case"UberBlack":
+                            case"Moto":
                                 mRadioGroup.check(R.id.UberBlack);
-                                break;
-                            case"UberXl":
-                                mRadioGroup.check(R.id.UberXl);
                                 break;
                         }
                     }
@@ -171,10 +168,10 @@ public class DriverSettingsActivity extends AppCompatActivity {
         mService = radioButton.getText().toString();
 
         Map userInfo = new HashMap();
-        userInfo.put("name", mName);
-        userInfo.put("phone", mPhone);
-        userInfo.put("car", mCar);
-        userInfo.put("service", mService);
+        userInfo.put("Nome", mName);
+        userInfo.put("Telefone", mPhone);
+        userInfo.put("Veiculo", mCar);
+        userInfo.put("Servico", mService);
         mDriverDatabase.updateChildren(userInfo);
 
         if(resultUri != null) {
@@ -205,7 +202,7 @@ public class DriverSettingsActivity extends AppCompatActivity {
                     Uri downloadUrl = taskSnapshot.getUploadSessionUri();
 
                     Map newImage = new HashMap();
-                    newImage.put("profileImageUrl", downloadUrl.toString());
+                    newImage.put("Imagem de perfil", downloadUrl.toString());
                     mDriverDatabase.updateChildren(newImage);
 
                     finish();

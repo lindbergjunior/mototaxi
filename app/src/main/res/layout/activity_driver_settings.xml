@@ -18,14 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:hint="Name"
+        android:hint="Nome"
         android:layout_marginBottom="20sp"/>
     <EditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:hint="Phone"
+        android:hint="Telefone"
         android:layout_marginBottom="20sp"
         android:inputType="number"/>
     <EditText
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:hint="Car"
+        android:hint="Veiculo"
         android:layout_marginBottom="20sp"/>
     <RadioGroup
         android:layout_width="match_parent"
@@ -43,29 +43,24 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UberX"
+            android:text="Carro"
             android:id="@+id/UberX"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="UberBlack"
+            android:text="Moto"
             android:id="@+id/UberBlack"/>
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="UberXl"
-            android:id="@+id/UberXl"/>
     </RadioGroup>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/confirm"
-        android:text="confirm"/>
+        android:text="Confirmar"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/back"
-        android:text="back"/>
+        android:text="Voltar"/>
 
 </LinearLayout>
